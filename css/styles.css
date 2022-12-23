@@ -4,13 +4,29 @@ body {
 }
 .link {
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
 }
-.logo,
-.logo:visited {
+.address {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.link.active {
+    color: #2196F3;
+}
+.link.contact {
+    color: #757575;
+}
+.link.logo,
+.link.logo:visited {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     color: #000000;
+}
+.link.logo.footer {
+    color: #ffffff;
 }
 .logo-blue,
 .logo-blue:visited {
@@ -21,4 +37,41 @@ body {
 }
 .button {
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+li .button {
+    font-weight: 500;
+}
+.address li {
+    color: #ffffff;
+}
+.address .link {
+    color: #ffffff;
+    opacity: 60%;
+}
+.link:hover,
+.link:active {
+    color: #2196F3;
+}
+.h-main {
+    font-size: 44px;
+    font-weight: 900;
+}
+.h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.h4 {
+    font-weight: 500;
+}
+.h5 {
+    font-size: 18px;
+}
+.txt-gray {
+    color: #757575;
 }
