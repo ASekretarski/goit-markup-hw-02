@@ -1,6 +1,15 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --tertiary-text-color: #ffffff;
+    --primary-brand-color: #2196F3;
+    --secondary-brand-color: #F5F4FA;
+    --tertiary-brand-color: #000000;
+}
+    
 body {
     font-family: Roboto, sans-serif;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .link {
     text-decoration: none;
@@ -19,25 +28,25 @@ body {
     line-height: 1.71;
 }
 .link.active {
-    color: #2196F3;
+    color: var(--primary-brand-color);
 }
 .link.contact {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .link.logo,
 .link.logo:visited {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    color: #000000;
+    color: var(--tertiary-brand-color);
     line-height: 1.19;
 }
 .link.logo.footer {
-    color: #ffffff;
+    color: var(--tertiary-text-color);
 }
 .logo-blue,
 .logo-blue:visited {
-    color: #2196F3;
+    color: var(--primary-brand-color);
 }
 .list {
     list-style-type: none;
@@ -46,73 +55,73 @@ body {
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--primary-brand-color);
+    color: var(--tertiary-text-color);
     border: 0px;
     line-height: 1.88;
 }
-li .button {
+.list .button {
     font-weight: 500;
-    background-color: #F5F4FA;
-    color: #212121;
+    background-color: var(--secondary-brand-color);
+    color: var(--primary-text-color);
     line-height: 1.63;
 
 }
-li .button:hover,
-li .button:focus {
+.list .button:hover,
+.list .button:focus {
     font-weight: 500;
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--primary-brand-color);
+    color: var(--tertiary-text-color);
 
 }
 .address li {
-    color: #ffffff;
+    color: var(--tertiary-text-color);
 }
 .address .link {
-    color: #ffffff;
+    color: var(--tertiary-text-color);
     opacity: 60%;
 }
 .link:hover,
 .link:active {
-    color: #2196F3;
+    color: var(--primary-brand-color);
 }
-.headline .h {
+.headline .heading {
     font-size: 44px;
     line-height: 1.36;
     font-weight: 900;
-    color: #FFFFFF;
+    color: var(--tertiary-text-color);
 }
-.about .h {
+.about .heading {
     font-size: 14px;
     line-height: 1.14;
 }
-.what-we-do .h {
+.what-we-do .heading {
     font-size: 36px;
     line-height: 1.17;
 }
-.our-team .h {
+.our-team .heading {
     font-size: 36px;
     line-height: 1.17;
 }
-.our-team .list .h {
+.our-team .list .heading {
     font-size: 16px;
     line-height: 1.19;
     font-weight: 500;
 }
-.examples .h {
+.examples .heading {
     font-size: 18px;
     line-height: 2;
 }
 .about .txt-gray {
     font-size: 14px;
     line-height: 1.71;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .our-team .txt-gray {
     line-height: 1.19;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .examples .txt-gray {
     line-height: 1.88;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
